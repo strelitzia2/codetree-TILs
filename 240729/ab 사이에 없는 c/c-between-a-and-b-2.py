@@ -9,6 +9,6 @@ for i in range(a,b+1):
         con=True
         break
 if con==False:
-    print("NO")
-else:
     print("YES")
+else:
+    print("NO")
