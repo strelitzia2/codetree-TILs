@@ -5,7 +5,7 @@ b=int(arr[1])
 c=int(arr[2])
 con=False
 for i in range(a,b+1):
-    if c%i==0:
+    if i%c==0:
         con=True
         break
 if con==False:
