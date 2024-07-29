@@ -5,6 +5,6 @@ for i in range(2,k):
         c=True
         break
 if c==True:
-    print("N")
-else:
     print("C")
+else:
+    print("N")
