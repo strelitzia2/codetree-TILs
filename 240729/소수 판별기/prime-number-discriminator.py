@@ -5,6 +5,6 @@ for i in range(2,k):
         con=True
         break
 if con==True:
-    print(C)
+    print("C")
 else:
-    print(P)
+    print("P")
