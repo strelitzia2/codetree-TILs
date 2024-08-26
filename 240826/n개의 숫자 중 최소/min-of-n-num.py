@@ -1,7 +1,7 @@
 k=int(input())
 arr=(list(map(int,input().split())))
 minv=arr[0]
-cnt=1
+cnt=0
 for elem in arr:
     if elem<minv:
         minv=elem
